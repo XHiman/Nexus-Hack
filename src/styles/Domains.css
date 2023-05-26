@@ -1,0 +1,17 @@
+.Domain{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row: auto auto;
+    grid-column-gap: 3rem;
+    grid-row-gap: 3rem;
+    justify-content: center;
+  
+    > img {
+      width: 20rem;
+      height: 20rem;
+    }
+
+    > video {
+        width: 20rem;
+    }
+  }

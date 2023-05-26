@@ -1,0 +1,21 @@
+.Home {
+    padding: 0 2rem;
+    max-height: 90vh;
+}
+.Home > img {
+    inline-size: 100vw;
+}
+h1 {
+    color: aliceblue;
+}
+p{
+    margin: 0%;
+}
+.NHack {
+    font-size: 2.5vw;
+    text-align: left;
+    top: 5vh;
+    padding-bottom: 20vh;
+    left: 15vh;
+    position: relative;
+}

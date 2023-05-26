@@ -1,0 +1,27 @@
+.anchor-link.anchor-link--active {
+    background-color: springgreen;
+}
+
+.anchor-link{
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background-color: blueviolet;
+    border: 1px #0063a4;
+    transition: background-color 200ms ease-in-out;
+}
+
+.scroll-navigation {
+    position: fixed;
+    z-index: 20;
+    top: calc(50% - 175px);
+    right: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 50px;
+    height: 350px;
+    text-align: center;
+}
